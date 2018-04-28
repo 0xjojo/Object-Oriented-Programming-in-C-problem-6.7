@@ -1,4 +1,7 @@
 # depslib dependency file v1.0
-1524920791 source:c:\users\gehad\desktop\the fourth term\programing\oop 6.7\main.cpp
+1524921662 source:c:\users\gehad\desktop\the fourth term\programing\oop 6.7\main.cpp
+	<iostream>
+
+1524921662 source:c:\users\gehad\desktop\the fourth term\programing\object-oriented-programming-in-c-problem-6.7\main.cpp
 	<iostream>
 

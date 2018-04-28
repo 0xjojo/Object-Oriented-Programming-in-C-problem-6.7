@@ -57,11 +57,12 @@ int main()
     angle a2 ;
     a1.display_myangle () ;
     int c = 0 ;
-    //while (c = 0)
-    //{
+    while (c >= 0)
+    {
         a2.get_angle () ;
         a2.display_angle () ;
-    //}
+        c++ ;
+    }
 
     return 0;
 }
