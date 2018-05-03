@@ -1,6 +1,3 @@
-#include <iostream>
-
-using namespace std;
 /*7. In ocean navigation, locations are measured in degrees and minutes of latitude and longitude.
 Thus if you’re lying off the mouth of Papeete Harbor in Tahiti, your location is 149
 degrees 34.8 minutes west longitude, and 17 degrees 31.5 minutes south latitude. This is
@@ -17,6 +14,10 @@ angle value in 179°59.9’ E format. Also write a three-argument constructor. Writ
 main() program that displays an angle initialized with the constructor, and then, within a
 loop, allows the user to input any angle value, and then displays the value. You can use
 the hex character constant ‘\xF8’, which usually prints a degree (°) symbol.*/
+#include <iostream>
+
+using namespace std;
+
 class angle  {
     private :
         int degree ;
@@ -57,11 +58,12 @@ int main()
     angle a2 ;
     a1.display_myangle () ;
     int c = 0 ;
-    //while (c = 0)
-    //{
+    while (c >= 0)
+    {
         a2.get_angle () ;
         a2.display_angle () ;
-    //}
+        c++ ;
+    }
 
     return 0;
 }
